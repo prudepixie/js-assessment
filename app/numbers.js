@@ -15,7 +15,10 @@ define(function() {
     },
 
     multiply: function(a, b) {
-
+        var mul=a*b
+        var dec=mul.toFixed(3)
+        //return parseFloat(dec)
+        return dec
     }
   };
 });
